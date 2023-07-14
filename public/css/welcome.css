@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.initialized {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form_container {
+  width: 60vh;
+  margin-top: 12px;
+}
+
+.success_container {
+  background-color: green;
+  line-height: 8px;
+  font-size: medium;
+  color: white;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.danger_container {
+  background-color: red;
+  line-height: 8px;
+  font-size: medium;
+  color: white;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
